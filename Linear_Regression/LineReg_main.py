@@ -48,10 +48,13 @@ for i in range(-10, 11, 5):
 
 
 # 可视化
+# %matplotlib inline
 plt.scatter(x, y, label='Samples')
 # 绘制回归模型
 plt.plot(x, w * x + b, c='r', label='True function')
 # 绘制真实模型
 plt.plot(x, -5 * x + 0.1, c='b', label='Trained model')
+# 增加图例
 plt.legend()
+# 显示图标（IDE中）
 plt.show()
