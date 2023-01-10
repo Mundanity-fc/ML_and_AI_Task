@@ -1,2 +1,7 @@
 /.idea
 /DeepFM/deepfm/data/
+/DeepFM/deepfm/checkpoint/
+/DeepFM/deepfm/src/items_error_size_lineCount.npy
+/DeepFM/deepfm/'loss.log'
+/DeepFM/deepfm/auc.log
+/DeepFM/deepfm/deepfm.mindir
