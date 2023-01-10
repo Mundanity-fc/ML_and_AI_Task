@@ -5,3 +5,5 @@
 /DeepFM/deepfm/'loss.log'
 /DeepFM/deepfm/auc.log
 /DeepFM/deepfm/deepfm.mindir
+/Wide_and_Deep/data/
+/Wide_and_Deep/items_error_size_lineCount.npy
