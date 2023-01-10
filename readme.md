@@ -6,3 +6,4 @@
  - Logistic_Regression: 鸢尾花二分类实验目录
  - KNN: 红酒分类实验目录
  - DeepFM: 基于DeepFM模型实现点击率预估目录
+ - Wide_and_Deep: 基于 MindSpore 的广告推荐目录
