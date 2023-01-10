@@ -1,6 +1,6 @@
 tensorflow==1.15
 mindspore==1.7.0
 matplotlib
-sklearn
+scikit-learn
 pandas
 pyyaml
