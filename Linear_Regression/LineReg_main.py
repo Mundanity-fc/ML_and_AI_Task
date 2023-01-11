@@ -23,7 +23,7 @@ net = nn.Dense(1, 1)
 loss_fn = nn.loss.MSELoss()
 # 确立优化器
 opt = nn.optim.SGD(net.trainable_params(), learning_rate=0.01)
-# 确立损失值
+# 绑定损失函数
 with_loss = nn.WithLossCell(net, loss_fn)
 # 确立训练步长
 train_step = nn.TrainOneStepCell(with_loss, opt).set_train()
